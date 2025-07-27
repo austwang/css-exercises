@@ -31,6 +31,10 @@ img {
   align-items: center;
 }
 
+.plant-container {
+  display: flex;
+}
+
 .plant-box {
   display: flex;
   flex-direction: column;
