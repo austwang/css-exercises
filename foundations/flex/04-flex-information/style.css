@@ -28,4 +28,10 @@ img {
 .container {
   display: flex;
   flex-direction: column;
+  align-items: center;
+}
+
+.plant-box {
+  display: flex;
+  flex-direction: column;
 }
