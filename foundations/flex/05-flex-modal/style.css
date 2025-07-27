@@ -68,9 +68,33 @@ button.cancel {
   color: royalblue;
 }
 
+/* Added CSS */
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  gap: 16px;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.button-container {
+  display: flex;
+  gap: 4px;
+}
+
 .header {
   font-size: larger;
   font-weight: bold;
   display: flex;
   justify-content: space-between;
+}
+
+.icon {
+  flex-shrink: 0;
 }
