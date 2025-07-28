@@ -25,6 +25,12 @@ input {
   width: 400px;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .header, .footer {
   display: flex;
   justify-content: space-between;
