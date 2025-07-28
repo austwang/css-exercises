@@ -54,3 +54,9 @@ body {
 .main-section {
   display: flex;
 }
+
+.card-group {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 48px;
+}
