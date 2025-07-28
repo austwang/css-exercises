@@ -54,7 +54,8 @@ button {
 .left-links, .right-links {
   display: flex;
   list-style-type: none;
-  padding: 12px;
+  margin: 0;
+  padding: 16px;
   gap: 16px;
 }
 
