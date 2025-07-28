@@ -25,9 +25,13 @@ input {
   width: 400px;
 }
 
-.header {
+.header, .footer {
   display: flex;
   justify-content: space-between;
+}
+
+.footer {
+  background-color: #eeeeee;
 }
 
 .left-links, .right-links {
